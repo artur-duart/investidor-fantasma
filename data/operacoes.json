@@ -1,0 +1,24 @@
+{
+ "aportes": [
+  {
+   "numero": 1,
+   "data": "2026-09-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "AAPL",
+     "quantidade": 0.22171,
+     "preco": 1732.6697,
+     "valor_gasto": 390.0
+    },
+    {
+     "ticker": "MSFT",
+     "quantidade": 0.143954,
+     "preco": 2668.5675,
+     "valor_gasto": 390.0
+    }
+   ]
+  }
+ ]
+}
