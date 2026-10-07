@@ -1,0 +1,77 @@
+{
+  "inicio": "2023-05-30",
+  "dia_aporte": 30,
+  "aporte_inicial": 780.0,
+  "reajuste_anual": 0.045,
+  "ativos_por_aporte": 2,
+  "custo_cambio": 0.015,
+  "ir_dividendos_eua": 0.3,
+  "benchmark_cdi": true,
+  "benchmarks": [{ "nome": "S&P 500 (IVVB11)", "simbolo": "IVVB11.SA" }],
+  "classes": { "Exterior": 0.633, "Brasil": 0.317, "Bitcoin": 0.05 },
+  "ativos": [
+    { "ticker": "ITUB3", "classe": "Brasil", "setor": "Banco", "nota": 3 },
+    { "ticker": "EQTL3", "classe": "Brasil", "setor": "Energia", "nota": 3 },
+    { "ticker": "EGIE3", "classe": "Brasil", "setor": "Energia", "nota": 3 },
+    { "ticker": "CPFE3", "classe": "Brasil", "setor": "Energia", "nota": 3 },
+    { "ticker": "SBSP3", "classe": "Brasil", "setor": "Saneamento", "nota": 2 },
+    { "ticker": "PSSA3", "classe": "Brasil", "setor": "Seguros", "nota": 3 },
+    { "ticker": "BBSE3", "classe": "Brasil", "setor": "Seguros", "nota": 2 },
+    { "ticker": "RADL3", "classe": "Brasil", "setor": "Saúde", "nota": 3 },
+    { "ticker": "FLRY3", "classe": "Brasil", "setor": "Saúde", "nota": 3 },
+    { "ticker": "TOTS3", "classe": "Brasil", "setor": "Tecnologia", "nota": 2 },
+    { "ticker": "WEGE3", "classe": "Brasil", "setor": "Indústria", "nota": 3 },
+    { "ticker": "RENT3", "classe": "Brasil", "setor": "Serviços", "nota": 2 },
+    {
+      "ticker": "AAPL",
+      "classe": "Exterior",
+      "setor": "Tecnologia",
+      "nota": 3
+    },
+    {
+      "ticker": "MSFT",
+      "classe": "Exterior",
+      "setor": "Tecnologia",
+      "nota": 3
+    },
+    {
+      "ticker": "GOOGL",
+      "classe": "Exterior",
+      "setor": "Tecnologia",
+      "nota": 3
+    },
+    { "ticker": "APH", "classe": "Exterior", "setor": "Tecnologia", "nota": 3 },
+    { "ticker": "COST", "classe": "Exterior", "setor": "Consumo", "nota": 3 },
+    { "ticker": "CASY", "classe": "Exterior", "setor": "Consumo", "nota": 3 },
+    { "ticker": "ORLY", "classe": "Exterior", "setor": "Consumo", "nota": 3 },
+    { "ticker": "MNST", "classe": "Exterior", "setor": "Consumo", "nota": 3 },
+    { "ticker": "MA", "classe": "Exterior", "setor": "Financeiro", "nota": 3 },
+    { "ticker": "AJG", "classe": "Exterior", "setor": "Financeiro", "nota": 3 },
+    { "ticker": "BLK", "classe": "Exterior", "setor": "Financeiro", "nota": 3 },
+    { "ticker": "FDS", "classe": "Exterior", "setor": "Financeiro", "nota": 2 },
+    { "ticker": "FAST", "classe": "Exterior", "setor": "Indústria", "nota": 3 },
+    { "ticker": "CTAS", "classe": "Exterior", "setor": "Indústria", "nota": 3 },
+    { "ticker": "CPRT", "classe": "Exterior", "setor": "Indústria", "nota": 3 },
+    { "ticker": "AME", "classe": "Exterior", "setor": "Indústria", "nota": 3 },
+    { "ticker": "ISRG", "classe": "Exterior", "setor": "Saúde", "nota": 3 },
+    { "ticker": "IDXX", "classe": "Exterior", "setor": "Saúde", "nota": 3 },
+    {
+      "ticker": "BCPC",
+      "classe": "Exterior",
+      "setor": "Materiais especiais",
+      "nota": 2
+    },
+    {
+      "ticker": "MTD",
+      "classe": "Exterior",
+      "setor": "Saúde (instrumentos)",
+      "nota": 2
+    },
+    {
+      "ticker": "BTC",
+      "classe": "Bitcoin",
+      "setor": "Reserva de valor",
+      "nota": 3
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Investidor Fantasma · Invista em Paz</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            background: #f1f3f6;
+            color: #1f2937
+        }
+
+        header {
+            background: #111827;
+            color: #fff;
+            padding: 14px 28px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap
+        }
+
+        header b {
+            font-size: 20px
+        }
+
+        header span {
+            color: #9ca3af;
+            font-size: 14px
+        }
+
+        main {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 24px
+        }
+
+        .grid {
+            display: grid;
+            gap: 16px
+        }
+
+        .g4 {
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr))
+        }
+
+        .g2 {
+            grid-template-columns: 2fr 1fr
+        }
+
+        @media(max-width:900px) {
+            .g2 {
+                grid-template-columns: 1fr
+            }
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 18px 20px
+        }
+
+        .lbl {
+            font-size: 13px;
+            color: #6b7280
+        }
+
+        .big {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 6px 0
+        }
+
+        .pos {
+            color: #059669
+        }
+
+        .neg {
+            color: #dc2626
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600
+        }
+
+        .pill.pos {
+            background: #d1fae5
+        }
+
+        .pill.neg {
+            background: #fee2e2
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 0 0 12px
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px
+        }
+
+        th {
+            font-size: 12px;
+            color: #6b7280;
+            font-weight: 500;
+            text-align: right;
+            padding: 10px 8px;
+            border-bottom: 1px solid #e5e7eb;
+            white-space: nowrap
+        }
+
+        td {
+            text-align: right;
+            padding: 10px 8px;
+            border-bottom: 1px solid #f1f3f6;
+            white-space: nowrap
+        }
+
+        th:first-child,
+        td:first-child {
+            text-align: left
+        }
+
+        .nota {
+            display: inline-block;
+            background: #111827;
+            color: #fff;
+            border-radius: 6px;
+            padding: 3px 9px;
+            font-weight: 600
+        }
+
+        .sim {
+            background: #d1fae5;
+            color: #065f46
+        }
+
+        .nao {
+            background: #f3f4f6;
+            color: #6b7280
+        }
+
+        .tick {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600
+        }
+
+        .ico {
+            width: 30px;
+            height: 30px;
+            border-radius: 6px;
+            display: grid;
+            place-items: center;
+            color: #fff;
+            font-size: 10px
+        }
+
+        .sec {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 10px
+        }
+
+        .wrap {
+            overflow-x: auto
+        }
+
+        .dest td {
+            font-weight: 600;
+            background: #f9fafb
+        }
+    </style>
+</head>
+
+<body>
+    <header><b>Investidor Fantasma</b><span>Filosofia Invista em Paz · aporta todo dia 30</span><span id="upd"
+            style="margin-left:auto"></span></header>
+    <main>
+        <div class="grid g4" id="cards"></div>
+        <div class="grid g2" style="margin-top:16px">
+            <div class="card">
+                <h2>Evolução do patrimônio</h2>
+                <div style="height:320px"><canvas id="evo"></canvas></div>
+            </div>
+            <div class="card">
+                <h2>Ativos na carteira</h2>
+                <div style="height:320px"><canvas id="aloc"></canvas></div>
+            </div>
+        </div>
+        <div class="card" style="margin-top:16px" id="comp"></div>
+        <div class="card" style="margin-top:16px" id="prox"></div>
+        <h2 style="margin:28px 0 12px" id="tit"></h2>
+        <div id="classes"></div>
+        <div class="card" style="margin-top:16px">
+            <h2>Histórico de aportes</h2>
+            <div class="wrap">
+                <table id="hist"></table>
+            </div>
+        </div>
+    </main>
+    <script>
+        const brl = v => v == null ? "-" : v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+        const usd = v => v == null ? "" : v.toLocaleString("en-US", { style: "currency", currency: "USD" });
+        const pct = v => v == null ? "-" : (v * 100).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "%";
+        const pill = v => v == null ? "-" : `<span class="pill ${v >= 0 ? "pos" : "neg"}">${pct(v)} ${v >= 0 ? "▲" : "▼"}</span>`;
+        const dataBR = s => s.split("-").reverse().join("/");
+        const qtd = a => a.classe === "Brasil" ? a.quantidade.toLocaleString("pt-BR") : a.quantidade.toLocaleString("pt-BR", { maximumFractionDigits: 6 });
+        const NOMES = { Brasil: "Ações", Exterior: "Stocks", Bitcoin: "Cripto" }, COR = { Brasil: "#22c3e6", Exterior: "#3b82c4", Bitcoin: "#f59e0b" };
+        const corB = (n, i) => n.startsWith("CDI") ? "#6b7280" : ["#f97316", "#8b5cf6", "#ef4444"][i % 3];
+        const $ = id => document.getElementById(id);
+
+        fetch("data/estado.json?t=" + Date.now()).then(r => r.json()).then(e => {
+            const r = e.resumo, bm = e.benchmarks || {};
+            $("upd").textContent = "Atualizado em " + e.atualizado_em;
+            $("cards").innerHTML = `
+  <div class="card"><div class="lbl">Patrimônio total</div><div class="big">${brl(r.patrimonio)} ${pill(r.rentabilidade)}</div><div class="lbl">Valor investido</div><div>${brl(r.investido)}</div></div>
+  <div class="card"><div class="lbl">Lucro total</div><div class="big ${r.lucro >= 0 ? "pos" : "neg"}">${brl(r.lucro)}</div><div class="lbl">Ganho de capital ${brl(r.ganho_capital)} · Dividendos ${brl(r.dividendos)}</div></div>
+  <div class="card"><div class="lbl">Proventos recebidos (12M)</div><div class="big">${brl(r.proventos_12m)}</div><div class="lbl">Caixa aguardando o próximo aporte: ${brl(r.caixa)}</div></div>
+  <div class="card"><div class="lbl">Rentabilidade total</div><div class="big">${pill(r.rentabilidade)}</div><div class="lbl">${e.aportes.length} aporte(s) desde ${dataBR(e.inicio)}</div></div>`;
+
+            const ds = [
+                { label: "Valor aplicado", stack: "f", data: e.evolucao.map(x => Math.min(x.aplicado, x.patrimonio)), backgroundColor: "#10b981", order: 2 },
+                { label: "Ganho de capital", stack: "f", data: e.evolucao.map(x => Math.max(0, x.patrimonio - x.aplicado)), backgroundColor: "#a7f3d0", order: 2 }];
+            Object.keys(bm).forEach((n, i) => ds.push({
+                type: "line", label: n, stack: "b" + i, order: 1,
+                data: e.evolucao.map(x => x.bench && x.bench[n] != null ? x.bench[n] : null), borderColor: corB(n, i), backgroundColor: corB(n, i),
+                borderWidth: 2, pointRadius: 3, borderDash: n.startsWith("CDI") ? [6, 4] : [], tension: .2
+            }));
+            new Chart($("evo"), {
+                type: "bar", data: { labels: e.evolucao.map(x => x.mes), datasets: ds },
+                options: {
+                    responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+                    scales: { x: { stacked: true }, y: { stacked: true, ticks: { callback: v => brl(v) } } },
+                    plugins: { tooltip: { callbacks: { label: c => c.dataset.label + ": " + brl(c.parsed.y) } } }
+                }
+            });
+
+            const cls = Object.keys(e.alocacao);
+            new Chart($("aloc"), {
+                type: "doughnut", data: {
+                    labels: cls.map(c => `${NOMES[c]} ${pct(e.alocacao[c])} (meta ${pct(e.metas_classe[c])})`),
+                    datasets: [{ data: cls.map(c => e.alocacao[c] * 100), backgroundColor: cls.map(c => COR[c]) }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, cutout: "55%", plugins: { legend: { position: "bottom" } } }
+            });
+
+            const linhas = [["Estratégia (fantasma)", r.patrimonio], ...Object.entries(bm)];
+            $("comp").innerHTML = `<h2>Comparação com alternativas</h2><div class="lbl" style="margin-bottom:8px">Mesmos aportes, nas mesmas datas. O CDI é bruto, sem desconto de IR.</div>
+  <div class="wrap"><table><tr><th>Alternativa</th><th>Patrimônio</th><th>Lucro</th><th>Rentabilidade</th><th>Fantasma vs. alternativa</th></tr>
+  ${linhas.map(([n, v], i) => {
+                const l = v - r.investido, d = r.patrimonio - v; return `<tr class="${i === 0 ? "dest" : ""}"><td>${n}</td><td>${brl(v)}</td>
+  <td class="${l >= 0 ? "pos" : "neg"}">${brl(l)}</td><td>${pill(r.investido ? l / r.investido : null)}</td>
+  <td class="${i === 0 ? "" : d >= 0 ? "pos" : "neg"}">${i === 0 ? "-" : (d >= 0 ? "+" : "") + brl(d)}</td></tr>`
+            }).join("")}</table></div>`;
+
+            const p = e.proximo_aporte;
+            $("prox").innerHTML = `<h2>Próximo aporte</h2><div>${dataBR(p.data)} · ${brl(p.valor)} + caixa de ${brl(p.caixa)} → classe mais atrasada: <b>${NOMES[p.classe]}</b> → compra <b>${p.ativos.join(" e ")}</b></div>`;
+
+            const comPos = e.ativos.filter(a => a.quantidade > 0).length;
+            $("tit").textContent = `Ativos (${comPos} de ${e.ativos.length})`;
+            $("classes").innerHTML = ["Brasil", "Exterior", "Bitcoin"].map(c => {
+                const rows = e.ativos.filter(a => a.classe === c).sort((a, b) => b.saldo - a.saldo || b.nota - a.nota);
+                const saldo = rows.reduce((s, a) => s + a.saldo, 0), custo = rows.reduce((s, a) => s + a.custo, 0), prov = rows.reduce((s, a) => s + a.proventos, 0);
+                return `<div class="card" style="margin-bottom:16px"><div class="sec"><h2 style="margin:0">${NOMES[c]}</h2>
+      <div class="lbl">Ativos ${rows.filter(a => a.quantidade > 0).length}/${rows.length} · Valor total ${brl(saldo)} · Rentabilidade ${custo ? pill((saldo + prov - custo) / custo) : "-"} · ${pct(e.alocacao[c])} / meta ${pct(e.metas_classe[c])}</div></div>
+      <div class="wrap"><table><tr><th>Ativo</th><th>Quant.</th><th>Preço médio</th><th>Preço atual</th><th>Variação</th><th>Rentabilidade</th><th>Saldo</th><th>Nota</th><th>% Carteira</th><th>% Ideal</th><th>Comprar?</th></tr>
+      ${rows.map(a => `<tr><td><span class="tick"><span class="ico" style="background:${COR[c]}">${a.ticker.slice(0, 4)}</span>${a.ticker}</span></td>
+        <td>${qtd(a)}</td><td>${brl(a.preco_medio)}</td><td>${brl(a.preco_atual)}<div class="lbl">${usd(a.preco_local)}</div></td>
+        <td>${pill(a.variacao)}</td><td>${pill(a.rentabilidade)}</td><td>${brl(a.saldo)}</td><td><span class="nota">${a.nota}</span></td>
+        <td>${pct(a.pct_carteira)}</td><td>${pct(a.pct_ideal)}</td>
+        <td>${a.status !== "Ativa" ? '<span class="pill nao">Quarentena</span>' : `<span class="pill ${a.comprar ? "sim" : "nao"}">${a.comprar ? "Sim" : "Não"}</span>`}</td></tr>`).join("")}
+      </table></div></div>`}).join("");
+
+            $("hist").innerHTML = `<tr><th>Nº</th><th>Data</th><th>Aporte</th><th>Classe</th><th style="text-align:left">Compras</th></tr>` +
+                e.aportes.map(a => `<tr><td>${a.numero}</td><td>${dataBR(a.data)}</td><td>${brl(a.valor)}</td><td>${NOMES[a.classe]}</td>
+    <td style="text-align:left">${a.compras.map(c => `${c.ticker}: ${c.quantidade.toLocaleString("pt-BR", { maximumFractionDigits: 6 })} a ${brl(c.preco)} (${brl(c.valor_gasto)})`).join(" · ")}</td></tr>`).join("");
+        }).catch(() => { $("cards").innerHTML = '<div class="card">Os dados ainda não foram gerados. Rode o workflow no GitHub Actions.</div>' });
+    </script>
+</body>
+
+</html>
