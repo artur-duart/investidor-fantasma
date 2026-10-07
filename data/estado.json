@@ -1,0 +1,3279 @@
+{
+ "atualizado_em": "07/10/2026 19:13",
+ "inicio": "2023-05-30",
+ "resumo": {
+  "patrimonio": 68842.66971742923,
+  "investido": 33813.11,
+  "caixa": 0.62,
+  "lucro": 35029.559717429234,
+  "ganho_capital": 33431.52971742924,
+  "dividendos": 1598.03,
+  "proventos_12m": 986.07,
+  "rentabilidade": 1.0359756827286586
+ },
+ "benchmarks": {
+  "CDI (bruto)": 41990.78,
+  "S&P 500 (IVVB11)": 43986.03
+ },
+ "metas_classe": {
+  "Exterior": 0.633,
+  "Brasil": 0.317,
+  "Bitcoin": 0.05
+ },
+ "alocacao": {
+  "Exterior": 0.5861752681815495,
+  "Brasil": 0.36270279753799683,
+  "Bitcoin": 0.051121934280453744
+ },
+ "proximo_aporte": {
+  "data": "2026-10-30",
+  "valor": 890.11,
+  "caixa": 0.62,
+  "classe": "Exterior",
+  "ativos": [
+   "MA",
+   "COST"
+  ]
+ },
+ "evolucao": [
+  {
+   "mes": "05/23",
+   "aplicado": 780.0,
+   "patrimonio": 767.47,
+   "bench": {
+    "CDI (bruto)": 780.4,
+    "S&P 500 (IVVB11)": 777.5
+   }
+  },
+  {
+   "mes": "06/23",
+   "aplicado": 1560.0,
+   "patrimonio": 1568.84,
+   "bench": {
+    "CDI (bruto)": 1568.76,
+    "S&P 500 (IVVB11)": 1564.17
+   }
+  },
+  {
+   "mes": "07/23",
+   "aplicado": 2340.0,
+   "patrimonio": 2336.89,
+   "bench": {
+    "CDI (bruto)": 2365.97,
+    "S&P 500 (IVVB11)": 2373.32
+   }
+  },
+  {
+   "mes": "08/23",
+   "aplicado": 3120.0,
+   "patrimonio": 3076.45,
+   "bench": {
+    "CDI (bruto)": 3173.27,
+    "S&P 500 (IVVB11)": 3242.96
+   }
+  },
+  {
+   "mes": "09/23",
+   "aplicado": 3900.0,
+   "patrimonio": 3863.03,
+   "bench": {
+    "CDI (bruto)": 3984.14,
+    "S&P 500 (IVVB11)": 3906.94
+   }
+  },
+  {
+   "mes": "10/23",
+   "aplicado": 4680.0,
+   "patrimonio": 4854.04,
+   "bench": {
+    "CDI (bruto)": 4804.26,
+    "S&P 500 (IVVB11)": 4611.85
+   }
+  },
+  {
+   "mes": "11/23",
+   "aplicado": 5460.0,
+   "patrimonio": 5981.8,
+   "bench": {
+    "CDI (bruto)": 5628.26,
+    "S&P 500 (IVVB11)": 5701.28
+   }
+  },
+  {
+   "mes": "12/23",
+   "aplicado": 6240.0,
+   "patrimonio": 7040.52,
+   "bench": {
+    "CDI (bruto)": 6458.61,
+    "S&P 500 (IVVB11)": 6661.88
+   }
+  },
+  {
+   "mes": "01/24",
+   "aplicado": 7020.0,
+   "patrimonio": 7922.95,
+   "bench": {
+    "CDI (bruto)": 7301.38,
+    "S&P 500 (IVVB11)": 7664.75
+   }
+  },
+  {
+   "mes": "02/24",
+   "aplicado": 7800.0,
+   "patrimonio": 9558.56,
+   "bench": {
+    "CDI (bruto)": 8139.81,
+    "S&P 500 (IVVB11)": 8861.02
+   }
+  },
+  {
+   "mes": "03/24",
+   "aplicado": 8580.0,
+   "patrimonio": 10854.9,
+   "bench": {
+    "CDI (bruto)": 8987.51,
+    "S&P 500 (IVVB11)": 10003.53
+   }
+  },
+  {
+   "mes": "04/24",
+   "aplicado": 9360.0,
+   "patrimonio": 11076.03,
+   "bench": {
+    "CDI (bruto)": 9847.27,
+    "S&P 500 (IVVB11)": 10728.83
+   }
+  },
+  {
+   "mes": "05/24",
+   "aplicado": 10175.1,
+   "patrimonio": 12492.73,
+   "bench": {
+    "CDI (bruto)": 10744.66,
+    "S&P 500 (IVVB11)": 12185.41
+   }
+  },
+  {
+   "mes": "06/24",
+   "aplicado": 10990.2,
+   "patrimonio": 14827.36,
+   "bench": {
+    "CDI (bruto)": 11644.46,
+    "S&P 500 (IVVB11)": 14251.07
+   }
+  },
+  {
+   "mes": "07/24",
+   "aplicado": 11805.3,
+   "patrimonio": 16293.11,
+   "bench": {
+    "CDI (bruto)": 12565.51,
+    "S&P 500 (IVVB11)": 15415.9
+   }
+  },
+  {
+   "mes": "08/24",
+   "aplicado": 12620.4,
+   "patrimonio": 17403.85,
+   "bench": {
+    "CDI (bruto)": 13489.62,
+    "S&P 500 (IVVB11)": 16548.01
+   }
+  },
+  {
+   "mes": "09/24",
+   "aplicado": 13435.5,
+   "patrimonio": 19501.15,
+   "bench": {
+    "CDI (bruto)": 14417.38,
+    "S&P 500 (IVVB11)": 17127.6
+   }
+  },
+  {
+   "mes": "10/24",
+   "aplicado": 14250.6,
+   "patrimonio": 21332.39,
+   "bench": {
+    "CDI (bruto)": 15366.59,
+    "S&P 500 (IVVB11)": 18851.29
+   }
+  },
+  {
+   "mes": "11/24",
+   "aplicado": 15065.7,
+   "patrimonio": 24532.33,
+   "bench": {
+    "CDI (bruto)": 16303.55,
+    "S&P 500 (IVVB11)": 21419.16
+   }
+  },
+  {
+   "mes": "12/24",
+   "aplicado": 15880.8,
+   "patrimonio": 24488.95,
+   "bench": {
+    "CDI (bruto)": 17270.88,
+    "S&P 500 (IVVB11)": 22492.13
+   }
+  },
+  {
+   "mes": "01/25",
+   "aplicado": 16695.9,
+   "patrimonio": 25694.83,
+   "bench": {
+    "CDI (bruto)": 18261.36,
+    "S&P 500 (IVVB11)": 22550.98
+   }
+  },
+  {
+   "mes": "02/25",
+   "aplicado": 17511.0,
+   "patrimonio": 25612.52,
+   "bench": {
+    "CDI (bruto)": 19256.4,
+    "S&P 500 (IVVB11)": 23283.12
+   }
+  },
+  {
+   "mes": "03/25",
+   "aplicado": 18326.1,
+   "patrimonio": 26216.43,
+   "bench": {
+    "CDI (bruto)": 20257.56,
+    "S&P 500 (IVVB11)": 22079.76
+   }
+  },
+  {
+   "mes": "04/25",
+   "aplicado": 19141.2,
+   "patrimonio": 28067.29,
+   "bench": {
+    "CDI (bruto)": 21286.56,
+    "S&P 500 (IVVB11)": 22627.1
+   }
+  },
+  {
+   "mes": "05/25",
+   "aplicado": 19992.98,
+   "patrimonio": 31418.13,
+   "bench": {
+    "CDI (bruto)": 22380.75,
+    "S&P 500 (IVVB11)": 25040.14
+   }
+  },
+  {
+   "mes": "06/25",
+   "aplicado": 20844.76,
+   "patrimonio": 40763.87,
+   "bench": {
+    "CDI (bruto)": 23478.05,
+    "S&P 500 (IVVB11)": 25829.12
+   }
+  },
+  {
+   "mes": "07/25",
+   "aplicado": 21696.54,
+   "patrimonio": 42832.74,
+   "bench": {
+    "CDI (bruto)": 24629.82,
+    "S&P 500 (IVVB11)": 28057.98
+   }
+  },
+  {
+   "mes": "08/25",
+   "aplicado": 22548.32,
+   "patrimonio": 44318.18,
+   "bench": {
+    "CDI (bruto)": 25768.33,
+    "S&P 500 (IVVB11)": 28616.49
+   }
+  },
+  {
+   "mes": "09/25",
+   "aplicado": 23400.1,
+   "patrimonio": 45826.24,
+   "bench": {
+    "CDI (bruto)": 26934.47,
+    "S&P 500 (IVVB11)": 29900.59
+   }
+  },
+  {
+   "mes": "10/25",
+   "aplicado": 24251.88,
+   "patrimonio": 45513.81,
+   "bench": {
+    "CDI (bruto)": 28130.33,
+    "S&P 500 (IVVB11)": 31765.98
+   }
+  },
+  {
+   "mes": "11/25",
+   "aplicado": 25103.66,
+   "patrimonio": 48654.75,
+   "bench": {
+    "CDI (bruto)": 29278.24,
+    "S&P 500 (IVVB11)": 32445.6
+   }
+  },
+  {
+   "mes": "12/25",
+   "aplicado": 25955.44,
+   "patrimonio": 49274.44,
+   "bench": {
+    "CDI (bruto)": 30487.66,
+    "S&P 500 (IVVB11)": 34332.1
+   }
+  },
+  {
+   "mes": "01/26",
+   "aplicado": 26807.22,
+   "patrimonio": 50284.57,
+   "bench": {
+    "CDI (bruto)": 31694.36,
+    "S&P 500 (IVVB11)": 34087.23
+   }
+  },
+  {
+   "mes": "02/26",
+   "aplicado": 27659.0,
+   "patrimonio": 50269.35,
+   "bench": {
+    "CDI (bruto)": 32862.14,
+    "S&P 500 (IVVB11)": 33785.2
+   }
+  },
+  {
+   "mes": "03/26",
+   "aplicado": 28510.78,
+   "patrimonio": 49655.03,
+   "bench": {
+    "CDI (bruto)": 34112.69,
+    "S&P 500 (IVVB11)": 33236.1
+   }
+  },
+  {
+   "mes": "04/26",
+   "aplicado": 29362.56,
+   "patrimonio": 57783.33,
+   "bench": {
+    "CDI (bruto)": 35336.32,
+    "S&P 500 (IVVB11)": 36041.91
+   }
+  },
+  {
+   "mes": "05/26",
+   "aplicado": 30252.67,
+   "patrimonio": 55509.37,
+   "bench": {
+    "CDI (bruto)": 36605.74,
+    "S&P 500 (IVVB11)": 39430.33
+   }
+  },
+  {
+   "mes": "06/26",
+   "aplicado": 31142.78,
+   "patrimonio": 58723.2,
+   "bench": {
+    "CDI (bruto)": 37905.65,
+    "S&P 500 (IVVB11)": 40801.41
+   }
+  },
+  {
+   "mes": "07/26",
+   "aplicado": 32032.89,
+   "patrimonio": 59484.94,
+   "bench": {
+    "CDI (bruto)": 39256.87,
+    "S&P 500 (IVVB11)": 41017.9
+   }
+  },
+  {
+   "mes": "08/26",
+   "aplicado": 32923.0,
+   "patrimonio": 63128.69,
+   "bench": {
+    "CDI (bruto)": 40576.57,
+    "S&P 500 (IVVB11)": 43909.59
+   }
+  },
+  {
+   "mes": "09/26",
+   "aplicado": 33813.11,
+   "patrimonio": 67359.8,
+   "bench": {
+    "CDI (bruto)": 41905.58,
+    "S&P 500 (IVVB11)": 44606.21
+   }
+  },
+  {
+   "mes": "10/26",
+   "aplicado": 33813.11,
+   "patrimonio": 68842.67,
+   "bench": {
+    "CDI (bruto)": 41990.78,
+    "S&P 500 (IVVB11)": 43986.03
+   }
+  }
+ ],
+ "ativos": [
+  {
+   "ticker": "ITUB3",
+   "classe": "Brasil",
+   "setor": "Banco",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 34.81400000000001,
+   "custo": 814.31,
+   "preco_medio": 23.390302751766523,
+   "preco_atual": 53.150001525878906,
+   "preco_local": null,
+   "variacao": 1.2723092595227232,
+   "rentabilidade": 1.5195492541193756,
+   "saldo": 1850.3641531219487,
+   "proventos": 201.33,
+   "pct_carteira": 0.026878400058060425,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "EQTL3",
+   "classe": "Brasil",
+   "setor": "Energia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 27.0,
+   "custo": 796.8,
+   "preco_medio": 29.51111111111111,
+   "preco_atual": 49.0,
+   "preco_local": null,
+   "variacao": 0.6603915662650603,
+   "rentabilidade": 0.7475276104417673,
+   "saldo": 1323.0,
+   "proventos": 69.42999999999999,
+   "pct_carteira": 0.01921790541435675,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "EGIE3",
+   "classe": "Brasil",
+   "setor": "Energia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 61.6,
+   "custo": 1237.58,
+   "preco_medio": 20.090584415584413,
+   "preco_atual": 31.290000915527344,
+   "preco_local": null,
+   "variacao": 0.5574460288599401,
+   "rentabilidade": 0.6649703909213827,
+   "saldo": 1927.4640563964845,
+   "proventos": 133.07,
+   "pct_carteira": 0.02799835368510962,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "CPFE3",
+   "classe": "Brasil",
+   "setor": "Energia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 23.0,
+   "custo": 770.71,
+   "preco_medio": 33.50913043478261,
+   "preco_atual": 50.09000015258789,
+   "preco_local": null,
+   "variacao": 0.49481647248578753,
+   "rentabilidade": 0.6061813178880789,
+   "saldo": 1152.0700035095215,
+   "proventos": 85.83,
+   "pct_carteira": 0.016734975327410154,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "SBSP3",
+   "classe": "Brasil",
+   "setor": "Saneamento",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 252.66965925914997,
+   "custo": 850.8299999999999,
+   "preco_medio": 3.367361172270187,
+   "preco_atual": 32.04999923706055,
+   "preco_local": null,
+   "variacao": 8.517838330200046,
+   "rentabilidade": 8.581940442255334,
+   "saldo": 8098.0623864841045,
+   "proventos": 54.540000000000006,
+   "pct_carteira": 0.11763249960923025,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "PSSA3",
+   "classe": "Brasil",
+   "setor": "Seguros",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 23.0,
+   "custo": 837.1700000000001,
+   "preco_medio": 36.39869565217391,
+   "preco_atual": 52.650001525878906,
+   "preco_local": null,
+   "variacao": 0.4464804461402283,
+   "rentabilidade": 0.5894502133320768,
+   "saldo": 1210.9500350952148,
+   "proventos": 119.69,
+   "pct_carteira": 0.017590266996199415,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "BBSE3",
+   "classe": "Brasil",
+   "setor": "Seguros",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 37.0,
+   "custo": 1273.41,
+   "preco_medio": 34.41648648648649,
+   "preco_atual": 40.279998779296875,
+   "preco_local": null,
+   "variacao": 0.17036928784443672,
+   "rentabilidade": 0.3737837419479855,
+   "saldo": 1490.3599548339844,
+   "proventos": 259.03,
+   "pct_carteira": 0.021648977056193886,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "RADL3",
+   "classe": "Brasil",
+   "setor": "Saúde",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 64.26,
+   "custo": 1270.3899999999999,
+   "preco_medio": 19.769530034235913,
+   "preco_atual": 21.09000015258789,
+   "preco_local": null,
+   "variacao": 0.06679319721132737,
+   "rentabilidade": 0.10228623478246678,
+   "saldo": 1355.243409805298,
+   "proventos": 45.09,
+   "pct_carteira": 0.01968627336588703,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "FLRY3",
+   "classe": "Brasil",
+   "setor": "Saúde",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 88.0,
+   "custo": 1233.6399999999999,
+   "preco_medio": 14.018636363636363,
+   "preco_atual": 25.760000228881836,
+   "preco_local": null,
+   "variacao": 0.837553921842354,
+   "rentabilidade": 0.9842174541532389,
+   "saldo": 2266.8800201416016,
+   "proventos": 180.93,
+   "pct_carteira": 0.032928711876626174,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "TOTS3",
+   "classe": "Brasil",
+   "setor": "Tecnologia",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 25.0,
+   "custo": 883.89,
+   "preco_medio": 35.3556,
+   "preco_atual": 39.31999969482422,
+   "preco_local": null,
+   "variacao": 0.11212932872937298,
+   "rentabilidade": 0.14368302885042875,
+   "saldo": 982.9999923706055,
+   "proventos": 27.89,
+   "pct_carteira": 0.014279063398104084,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "WEGE3",
+   "classe": "Brasil",
+   "setor": "Indústria",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 31.0,
+   "custo": 1231.37,
+   "preco_medio": 39.721612903225804,
+   "preco_atual": 51.27000045776367,
+   "preco_local": null,
+   "variacao": 0.29073309743673637,
+   "rentabilidade": 0.3537604572067485,
+   "saldo": 1589.3700141906738,
+   "proventos": 77.61,
+   "pct_carteira": 0.023087197733281342,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "RENT3",
+   "classe": "Brasil",
+   "setor": "Serviços",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 34.0,
+   "custo": 1263.94,
+   "preco_medio": 37.174705882352946,
+   "preco_atual": 50.65999984741211,
+   "preco_local": null,
+   "variacao": 0.3627545570296149,
+   "rentabilidade": 0.45328891783788133,
+   "saldo": 1722.4399948120117,
+   "proventos": 114.43,
+   "pct_carteira": 0.025020173017537697,
+   "pct_ideal": 0.026416666666666668,
+   "comprar": false
+  },
+  {
+   "ticker": "AAPL",
+   "classe": "Exterior",
+   "setor": "Tecnologia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.778799,
+   "custo": 868.0799999999999,
+   "preco_medio": 1114.6393356950894,
+   "preco_atual": 1677.0880092555162,
+   "preco_local": 336.6700134277344,
+   "variacao": 0.5046014935491969,
+   "rentabilidade": 0.5114211415079106,
+   "saldo": 1306.1144645201869,
+   "proventos": 5.92,
+   "pct_carteira": 0.018972626031347067,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "MSFT",
+   "classe": "Exterior",
+   "setor": "Tecnologia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.664009,
+   "custo": 1297.3600000000001,
+   "preco_medio": 1953.8289390655852,
+   "preco_atual": 2638.946519517456,
+   "preco_local": 529.760009765625,
+   "variacao": 0.3506538196632132,
+   "rentabilidade": 0.3597183815427224,
+   "saldo": 1752.2842394782665,
+   "proventos": 11.76,
+   "pct_carteira": 0.025453690682812835,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "GOOGL",
+   "classe": "Exterior",
+   "setor": "Tecnologia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.8763799999999999,
+   "custo": 846.52,
+   "preco_medio": 965.9280220908739,
+   "preco_atual": 1745.9807045459747,
+   "preco_local": 350.5,
+   "variacao": 0.8075681257973837,
+   "rentabilidade": 0.8135691653475421,
+   "saldo": 1530.1425698500013,
+   "proventos": 5.08,
+   "pct_carteira": 0.022226859544866282,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "APH",
+   "classe": "Exterior",
+   "setor": "Tecnologia",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 14.896248,
+   "custo": 392.46,
+   "preco_medio": 26.346231614833478,
+   "preco_atual": 436.12158633754734,
+   "preco_local": 87.55000305175781,
+   "variacao": 15.55347120276593,
+   "rentabilidade": 15.636944677769753,
+   "saldo": 6496.575308237517,
+   "proventos": 32.76,
+   "pct_carteira": 0.09436928933556625,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "COST",
+   "classe": "Exterior",
+   "setor": "Consumo",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.221791,
+   "custo": 847.21,
+   "preco_medio": 3819.857433349415,
+   "preco_atual": 4693.724162220955,
+   "preco_local": 942.25,
+   "variacao": 0.22876946171922863,
+   "rentabilidade": 0.24681693519097694,
+   "saldo": 1041.0257756631477,
+   "proventos": 15.29,
+   "pct_carteira": 0.015121946251399654,
+   "pct_ideal": 0.03165,
+   "comprar": true
+  },
+  {
+   "ticker": "CASY",
+   "classe": "Exterior",
+   "setor": "Consumo",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.430554,
+   "custo": 866.85,
+   "preco_medio": 2013.3363062473002,
+   "preco_atual": 3154.471558213234,
+   "preco_local": 633.25,
+   "variacao": 0.5667881955066512,
+   "rentabilidade": 0.5744019695159953,
+   "saldo": 1358.1703472749407,
+   "proventos": 6.6,
+   "pct_carteira": 0.019728790075974202,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "ORLY",
+   "classe": "Exterior",
+   "setor": "Consumo",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 19.17285,
+   "custo": 416.78,
+   "preco_medio": 21.738030600562773,
+   "preco_atual": 421.4762581377945,
+   "preco_local": 84.61000061035156,
+   "variacao": 18.388888804254556,
+   "rentabilidade": 18.388888804254556,
+   "saldo": 8080.901075837213,
+   "proventos": 0,
+   "pct_carteira": 0.11738321431459808,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "MNST",
+   "classe": "Exterior",
+   "setor": "Consumo",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 11.067456,
+   "custo": 845.21,
+   "preco_medio": 76.36895055196064,
+   "preco_atual": 213.6024378768616,
+   "preco_local": 42.880001068115234,
+   "variacao": 1.7969801383027875,
+   "rentabilidade": 1.7969801383027872,
+   "saldo": 2364.035582694899,
+   "proventos": 0,
+   "pct_carteira": 0.03433999412275458,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "MA",
+   "classe": "Exterior",
+   "setor": "Financeiro",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.364761,
+   "custo": 970.8499999999999,
+   "preco_medio": 2661.6058186045107,
+   "preco_atual": 2839.6968792320404,
+   "preco_local": 570.0599975585938,
+   "variacao": 0.06691113288928086,
+   "rentabilidade": 0.0747393246799798,
+   "saldo": 1035.8106733655584,
+   "proventos": 7.6,
+   "pct_carteira": 0.015046191646198396,
+   "pct_ideal": 0.03165,
+   "comprar": true
+  },
+  {
+   "ticker": "AJG",
+   "classe": "Exterior",
+   "setor": "Financeiro",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 1.165588,
+   "custo": 1345.51,
+   "preco_medio": 1154.361575445183,
+   "preco_atual": 1131.2759733495332,
+   "preco_local": 227.10000610351562,
+   "variacao": -0.019998588472374235,
+   "rentabilidade": -0.00861257127443453,
+   "saldo": 1318.6016992245357,
+   "proventos": 15.32,
+   "pct_carteira": 0.0191540156726434,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "BLK",
+   "classe": "Exterior",
+   "setor": "Financeiro",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.271758,
+   "custo": 1364.32,
+   "preco_medio": 5020.3489869663445,
+   "preco_atual": 5328.254920196312,
+   "preco_local": 1069.6300048828125,
+   "variacao": 0.061331579543442594,
+   "rentabilidade": 0.08153944866505608,
+   "saldo": 1447.9959006027093,
+   "proventos": 27.57,
+   "pct_carteira": 0.021033596567013747,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "FDS",
+   "classe": "Exterior",
+   "setor": "Financeiro",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 1.063269,
+   "custo": 1764.43,
+   "preco_medio": 1659.4389566516093,
+   "preco_atual": 1358.826289457138,
+   "preco_local": 272.7799987792969,
+   "variacao": -0.18115319396926954,
+   "rentabilidade": -0.1709629342253296,
+   "saldo": 1444.7978699648017,
+   "proventos": 17.98,
+   "pct_carteira": 0.020987141956045098,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "FAST",
+   "classe": "Exterior",
+   "setor": "Indústria",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 8.185572,
+   "custo": 840.44,
+   "preco_medio": 102.67333791700813,
+   "preco_atual": 248.22317176750948,
+   "preco_local": 49.83000183105469,
+   "variacao": 1.417601071547423,
+   "rentabilidade": 1.470466237412922,
+   "saldo": 2031.8486445713163,
+   "proventos": 44.43,
+   "pct_carteira": 0.029514644797929347,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "CTAS",
+   "classe": "Exterior",
+   "setor": "Indústria",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 1.799356,
+   "custo": 393.31,
+   "preco_medio": 218.58375996745502,
+   "preco_atual": 982.2822807191696,
+   "preco_local": 197.19000244140625,
+   "variacao": 3.4938484033096593,
+   "rentabilidade": 3.557258944612957,
+   "saldo": 1767.4755155057221,
+   "proventos": 24.94,
+   "pct_carteira": 0.025674359243522606,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "CPRT",
+   "classe": "Exterior",
+   "setor": "Indústria",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 8.465844,
+   "custo": 1882.0,
+   "preco_medio": 222.30506491733132,
+   "preco_atual": 132.60487252581788,
+   "preco_local": 26.6200008392334,
+   "variacao": -0.4035004439726566,
+   "rentabilidade": -0.40350044397265666,
+   "saldo": 1122.6121644434602,
+   "proventos": 0,
+   "pct_carteira": 0.016307070592048924,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "AME",
+   "classe": "Exterior",
+   "setor": "Indústria",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.9306129999999999,
+   "custo": 870.87,
+   "preco_medio": 935.8025301602278,
+   "preco_atual": 1238.4756469013519,
+   "preco_local": 248.6199951171875,
+   "variacao": 0.3234369506238677,
+   "rentabilidade": 0.33373699540667123,
+   "saldo": 1152.5415371898077,
+   "proventos": 8.97,
+   "pct_carteira": 0.016741824828292562,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "ISRG",
+   "classe": "Exterior",
+   "setor": "Saúde",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.581893,
+   "custo": 1335.15,
+   "preco_medio": 2294.494004911556,
+   "preco_atual": 2064.889878649017,
+   "preco_local": 414.5199890136719,
+   "variacao": -0.10006743350431602,
+   "rentabilidade": -0.10006743350431609,
+   "saldo": 1201.5449661567125,
+   "proventos": 0,
+   "pct_carteira": 0.017453648912090843,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "IDXX",
+   "classe": "Exterior",
+   "setor": "Saúde",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.48176899999999995,
+   "custo": 1303.8,
+   "preco_medio": 2706.2762444241953,
+   "preco_atual": 2523.9260114604112,
+   "preco_local": 506.6700134277344,
+   "variacao": -0.06738049500286025,
+   "rentabilidade": -0.06738049500286035,
+   "saldo": 1215.9493106152706,
+   "proventos": 0,
+   "pct_carteira": 0.017662886500420687,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "BCPC",
+   "classe": "Exterior",
+   "setor": "Materiais especiais",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 1.4812750000000001,
+   "custo": 1345.74,
+   "preco_medio": 908.5011223439266,
+   "preco_atual": 828.9547944007645,
+   "preco_local": 166.41000366210938,
+   "variacao": -0.08755776518793179,
+   "rentabilidade": -0.08388692238025727,
+   "saldo": 1227.9100130759925,
+   "proventos": 4.9399999999999995,
+   "pct_carteira": 0.017836627731395303,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "MTD",
+   "classe": "Exterior",
+   "setor": "Saúde (instrumentos)",
+   "nota": 2,
+   "status": "Ativa",
+   "quantidade": 0.190757,
+   "custo": 1328.51,
+   "preco_medio": 6964.410218235766,
+   "preco_atual": 7638.877194596222,
+   "preco_local": 1533.47998046875,
+   "variacao": 0.09684480885322011,
+   "rentabilidade": 0.09684480885322011,
+   "saldo": 1457.1692970095914,
+   "proventos": 0,
+   "pct_carteira": 0.021166849374629666,
+   "pct_ideal": 0.03165,
+   "comprar": false
+  },
+  {
+   "ticker": "BTC",
+   "classe": "Bitcoin",
+   "setor": "Reserva de valor",
+   "nota": 3,
+   "status": "Ativa",
+   "quantidade": 0.008493,
+   "custo": 1821.0800000000002,
+   "preco_medio": 214421.28811962792,
+   "preco_atual": 414381.1069570407,
+   "preco_local": 83185.671875,
+   "variacao": 0.9325558137951913,
+   "rentabilidade": 0.9325558137951911,
+   "saldo": 3519.338741386147,
+   "proventos": 0,
+   "pct_carteira": 0.051121934280453744,
+   "pct_ideal": 0.05,
+   "comprar": false
+  }
+ ],
+ "aportes": [
+  {
+   "numero": 41,
+   "data": "2026-09-30",
+   "valor": 890.11,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "CASY",
+     "quantidade": 0.147551,
+     "preco": 3165.7566,
+     "valor_gasto": 474.23
+    },
+    {
+     "ticker": "BLK",
+     "quantidade": 0.084834,
+     "preco": 5506.1772,
+     "valor_gasto": 474.23
+    }
+   ]
+  },
+  {
+   "numero": 40,
+   "data": "2026-08-30",
+   "valor": 890.11,
+   "classe": "Bitcoin",
+   "compras": [
+    {
+     "ticker": "BTC",
+     "quantidade": 0.002594,
+     "preco": 400850.0902,
+     "valor_gasto": 1039.89
+    }
+   ]
+  },
+  {
+   "numero": 39,
+   "data": "2026-07-30",
+   "valor": 890.11,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "IDXX",
+     "quantidade": 0.156105,
+     "preco": 2865.0234,
+     "valor_gasto": 454.06
+    },
+    {
+     "ticker": "GOOGL",
+     "quantidade": 0.261438,
+     "preco": 1710.7082,
+     "valor_gasto": 454.06
+    }
+   ]
+  },
+  {
+   "numero": 38,
+   "data": "2026-06-30",
+   "valor": 890.11,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "CPRT",
+     "quantidade": 3.212158,
+     "preco": 146.0746,
+     "valor_gasto": 476.36
+    },
+    {
+     "ticker": "MSFT",
+     "quantidade": 0.24275,
+     "preco": 1932.9101,
+     "valor_gasto": 476.36
+    }
+   ]
+  },
+  {
+   "numero": 37,
+   "data": "2026-05-30",
+   "valor": 890.11,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "MTD",
+     "quantidade": 0.076925,
+     "preco": 5963.9359,
+     "valor_gasto": 465.76
+    },
+    {
+     "ticker": "ISRG",
+     "quantidade": 0.213867,
+     "preco": 2145.154,
+     "valor_gasto": 465.76
+    }
+   ]
+  },
+  {
+   "numero": 36,
+   "data": "2026-04-30",
+   "valor": 851.78,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "BCPC",
+     "quantidade": 0.598,
+     "preco": 810.9283,
+     "valor_gasto": 492.32
+    },
+    {
+     "ticker": "AJG",
+     "quantidade": 0.46826,
+     "preco": 1035.612,
+     "valor_gasto": 492.32
+    }
+   ]
+  },
+  {
+   "numero": 35,
+   "data": "2026-03-30",
+   "valor": 851.78,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "FDS",
+     "quantidade": 0.417923,
+     "preco": 1071.4329,
+     "valor_gasto": 454.59
+    },
+    {
+     "ticker": "COST",
+     "quantidade": 0.085779,
+     "preco": 5220.086,
+     "valor_gasto": 454.59
+    }
+   ]
+  },
+  {
+   "numero": 34,
+   "data": "2026-02-28",
+   "valor": 851.78,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "BLK",
+     "quantidade": 0.086226,
+     "preco": 5461.3871,
+     "valor_gasto": 478.08
+    },
+    {
+     "ticker": "AAPL",
+     "quantidade": 0.347029,
+     "preco": 1356.987,
+     "valor_gasto": 478.08
+    }
+   ]
+  },
+  {
+   "numero": 33,
+   "data": "2026-01-30",
+   "valor": 851.78,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "MSFT",
+     "quantidade": 0.190128,
+     "preco": 2232.8609,
+     "valor_gasto": 431.0
+    },
+    {
+     "ticker": "ISRG",
+     "quantidade": 0.162251,
+     "preco": 2616.4984,
+     "valor_gasto": 431.0
+    }
+   ]
+  },
+  {
+   "numero": 32,
+   "data": "2025-12-30",
+   "valor": 851.78,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "CPRT",
+     "quantidade": 2.570822,
+     "preco": 219.9794,
+     "valor_gasto": 574.14
+    },
+    {
+     "ticker": "MA",
+     "quantidade": 0.175864,
+     "preco": 3215.7096,
+     "valor_gasto": 574.14
+    }
+   ]
+  },
+  {
+   "numero": 31,
+   "data": "2025-11-30",
+   "valor": 851.78,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "AJG",
+     "quantidade": 0.339063,
+     "preco": 1326.1041,
+     "valor_gasto": 456.48
+    },
+    {
+     "ticker": "FDS",
+     "quantidade": 0.302805,
+     "preco": 1484.8917,
+     "valor_gasto": 456.48
+    }
+   ]
+  },
+  {
+   "numero": 30,
+   "data": "2025-10-30",
+   "valor": 851.78,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "FLRY3",
+     "quantidade": 30,
+     "preco": 14.47,
+     "valor_gasto": 434.1
+    },
+    {
+     "ticker": "RENT3",
+     "quantidade": 11,
+     "preco": 39.24,
+     "valor_gasto": 431.64
+    }
+   ]
+  },
+  {
+   "numero": 29,
+   "data": "2025-09-30",
+   "valor": 851.78,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "BBSE3",
+     "quantidade": 14,
+     "preco": 33.26,
+     "valor_gasto": 465.64
+    },
+    {
+     "ticker": "EGIE3",
+     "quantidade": 16,
+     "preco": 29.0714,
+     "valor_gasto": 465.14
+    }
+   ]
+  },
+  {
+   "numero": 28,
+   "data": "2025-08-30",
+   "valor": 851.78,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "WEGE3",
+     "quantidade": 12,
+     "preco": 37.66,
+     "valor_gasto": 451.92
+    },
+    {
+     "ticker": "PSSA3",
+     "quantidade": 9,
+     "preco": 51.75,
+     "valor_gasto": 465.75
+    }
+   ]
+  },
+  {
+   "numero": 27,
+   "data": "2025-07-30",
+   "valor": 851.78,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "SBSP3",
+     "quantidade": 21,
+     "preco": 21.1305,
+     "valor_gasto": 443.74
+    },
+    {
+     "ticker": "ITUB3",
+     "quantidade": 14,
+     "preco": 30.3398,
+     "valor_gasto": 424.76
+    }
+   ]
+  },
+  {
+   "numero": 26,
+   "data": "2025-06-30",
+   "valor": 851.78,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "RADL3",
+     "quantidade": 31,
+     "preco": 14.8235,
+     "valor_gasto": 459.53
+    },
+    {
+     "ticker": "TOTS3",
+     "quantidade": 11,
+     "preco": 42.21,
+     "valor_gasto": 464.31
+    }
+   ]
+  },
+  {
+   "numero": 25,
+   "data": "2025-05-30",
+   "valor": 851.78,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "WEGE3",
+     "quantidade": 10,
+     "preco": 42.35,
+     "valor_gasto": 423.5
+    },
+    {
+     "ticker": "BBSE3",
+     "quantidade": 11,
+     "preco": 37.51,
+     "valor_gasto": 412.61
+    }
+   ]
+  },
+  {
+   "numero": 24,
+   "data": "2025-04-30",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "FAST",
+     "quantidade": 1.854729,
+     "preco": 227.5257,
+     "valor_gasto": 428.43
+    },
+    {
+     "ticker": "MNST",
+     "quantidade": 2.497962,
+     "preco": 168.9372,
+     "valor_gasto": 428.43
+    }
+   ]
+  },
+  {
+   "numero": 23,
+   "data": "2025-03-30",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "FDS",
+     "quantidade": 0.165396,
+     "preco": 2575.5682,
+     "valor_gasto": 432.48
+    },
+    {
+     "ticker": "AME",
+     "quantidade": 0.435606,
+     "preco": 977.9193,
+     "valor_gasto": 432.48
+    }
+   ]
+  },
+  {
+   "numero": 22,
+   "data": "2025-02-28",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "MTD",
+     "quantidade": 0.05808,
+     "preco": 7431.4122,
+     "valor_gasto": 438.19
+    },
+    {
+     "ticker": "CPRT",
+     "quantidade": 1.3489,
+     "preco": 319.9772,
+     "valor_gasto": 438.19
+    }
+   ]
+  },
+  {
+   "numero": 21,
+   "data": "2025-01-30",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "IDXX",
+     "quantidade": 0.170115,
+     "preco": 2483.1822,
+     "valor_gasto": 428.86
+    },
+    {
+     "ticker": "BCPC",
+     "quantidade": 0.453373,
+     "preco": 931.7424,
+     "valor_gasto": 428.86
+    }
+   ]
+  },
+  {
+   "numero": 20,
+   "data": "2024-12-30",
+   "valor": 815.1,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "RENT3",
+     "quantidade": 13,
+     "preco": 32.2,
+     "valor_gasto": 418.6
+    },
+    {
+     "ticker": "EQTL3",
+     "quantidade": 15,
+     "preco": 27.4,
+     "valor_gasto": 411.0
+    }
+   ]
+  },
+  {
+   "numero": 19,
+   "data": "2024-11-30",
+   "valor": 815.1,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "EGIE3",
+     "quantidade": 15,
+     "preco": 27.1429,
+     "valor_gasto": 407.14
+    },
+    {
+     "ticker": "FLRY3",
+     "quantidade": 31,
+     "preco": 13.18,
+     "valor_gasto": 408.58
+    }
+   ]
+  },
+  {
+   "numero": 18,
+   "data": "2024-10-30",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "BCPC",
+     "quantidade": 0.429902,
+     "preco": 972.7489,
+     "valor_gasto": 424.56
+    },
+    {
+     "ticker": "MTD",
+     "quantidade": 0.055752,
+     "preco": 7500.9026,
+     "valor_gasto": 424.56
+    }
+   ]
+  },
+  {
+   "numero": 17,
+   "data": "2024-09-30",
+   "valor": 815.1,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "CPFE3",
+     "quantidade": 12,
+     "preco": 33.93,
+     "valor_gasto": 407.16
+    },
+    {
+     "ticker": "RADL3",
+     "quantidade": 17,
+     "preco": 24.9902,
+     "valor_gasto": 424.83
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "data": "2024-08-30",
+   "valor": 815.1,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "TOTS3",
+     "quantidade": 14,
+     "preco": 29.97,
+     "valor_gasto": 419.58
+    },
+    {
+     "ticker": "RENT3",
+     "quantidade": 10,
+     "preco": 41.37,
+     "valor_gasto": 413.7
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "data": "2024-07-30",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "IDXX",
+     "quantidade": 0.155549,
+     "preco": 2665.147,
+     "valor_gasto": 420.88
+    },
+    {
+     "ticker": "FDS",
+     "quantidade": 0.177145,
+     "preco": 2340.236,
+     "valor_gasto": 420.88
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "data": "2024-06-30",
+   "valor": 815.1,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "SBSP3",
+     "quantidade": 28,
+     "preco": 14.5389,
+     "valor_gasto": 407.09
+    },
+    {
+     "ticker": "BBSE3",
+     "quantidade": 12,
+     "preco": 32.93,
+     "valor_gasto": 395.16
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "data": "2024-05-30",
+   "valor": 815.1,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "AME",
+     "quantidade": 0.495007,
+     "preco": 872.3401,
+     "valor_gasto": 438.39
+    },
+    {
+     "ticker": "ISRG",
+     "quantidade": 0.205775,
+     "preco": 2098.4751,
+     "valor_gasto": 438.39
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "data": "2024-04-30",
+   "valor": 780.0,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "FLRY3",
+     "quantidade": 27,
+     "preco": 14.48,
+     "valor_gasto": 390.96
+    },
+    {
+     "ticker": "WEGE3",
+     "quantidade": 9,
+     "preco": 39.55,
+     "valor_gasto": 355.95
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "data": "2024-03-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "CTAS",
+     "quantidade": 0.449839,
+     "preco": 861.2093,
+     "valor_gasto": 393.31
+    },
+    {
+     "ticker": "CPRT",
+     "quantidade": 1.333964,
+     "preco": 290.4167,
+     "valor_gasto": 393.31
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "data": "2024-02-29",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "BLK",
+     "quantidade": 0.100698,
+     "preco": 4030.1693,
+     "valor_gasto": 412.01
+    },
+    {
+     "ticker": "FAST",
+     "quantidade": 2.238057,
+     "preco": 181.3313,
+     "valor_gasto": 412.01
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "data": "2024-01-30",
+   "valor": 780.0,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "PSSA3",
+     "quantidade": 14,
+     "preco": 26.53,
+     "valor_gasto": 371.42
+    },
+    {
+     "ticker": "RADL3",
+     "quantidade": 15,
+     "preco": 25.7353,
+     "valor_gasto": 386.03
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "data": "2023-12-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "MA",
+     "quantidade": 0.188897,
+     "preco": 2068.6589,
+     "valor_gasto": 396.71
+    },
+    {
+     "ticker": "AJG",
+     "quantidade": 0.358265,
+     "preco": 1090.713,
+     "valor_gasto": 396.71
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "data": "2023-11-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "ORLY",
+     "quantidade": 1.27819,
+     "preco": 321.1793,
+     "valor_gasto": 416.78
+    },
+    {
+     "ticker": "MNST",
+     "quantidade": 3.035766,
+     "preco": 135.2306,
+     "valor_gasto": 416.78
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "data": "2023-10-30",
+   "valor": 780.0,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "EGIE3",
+     "quantidade": 13,
+     "preco": 28.1,
+     "valor_gasto": 365.3
+    },
+    {
+     "ticker": "CPFE3",
+     "quantidade": 11,
+     "preco": 33.05,
+     "valor_gasto": 363.55
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "data": "2023-09-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "COST",
+     "quantidade": 0.136012,
+     "preco": 2843.3309,
+     "valor_gasto": 392.62
+    },
+    {
+     "ticker": "CASY",
+     "quantidade": 0.283003,
+     "preco": 1366.5059,
+     "valor_gasto": 392.62
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "data": "2023-08-30",
+   "valor": 780.0,
+   "classe": "Bitcoin",
+   "compras": [
+    {
+     "ticker": "BTC",
+     "quantidade": 0.005899,
+     "preco": 132427.2182,
+     "valor_gasto": 781.19
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "data": "2023-07-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "GOOGL",
+     "quantidade": 0.614942,
+     "preco": 628.6413,
+     "valor_gasto": 392.46
+    },
+    {
+     "ticker": "APH",
+     "quantidade": 3.724062,
+     "preco": 103.8055,
+     "valor_gasto": 392.46
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "data": "2023-06-30",
+   "valor": 780.0,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "ITUB3",
+     "quantidade": 18,
+     "preco": 21.6417,
+     "valor_gasto": 389.55
+    },
+    {
+     "ticker": "EQTL3",
+     "quantidade": 12,
+     "preco": 32.15,
+     "valor_gasto": 385.8
+    }
+   ]
+  },
+  {
+   "numero": 1,
+   "data": "2023-05-30",
+   "valor": 780.0,
+   "classe": "Exterior",
+   "compras": [
+    {
+     "ticker": "AAPL",
+     "quantidade": 0.43177,
+     "preco": 889.7091,
+     "valor_gasto": 390.0
+    },
+    {
+     "ticker": "MSFT",
+     "quantidade": 0.231131,
+     "preco": 1662.0448,
+     "valor_gasto": 390.0
+    }
+   ]
+  }
+ ],
+ "proventos": [
+  {
+   "data": "2023-07-03",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2023-08-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2023-08-11",
+   "ticker": "AAPL",
+   "valor": 0.35
+  },
+  {
+   "data": "2023-08-16",
+   "ticker": "MSFT",
+   "valor": 0.55
+  },
+  {
+   "data": "2023-09-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2023-09-18",
+   "ticker": "APH",
+   "valor": 0.67
+  },
+  {
+   "data": "2023-09-19",
+   "ticker": "ITUB3",
+   "valor": 4.28
+  },
+  {
+   "data": "2023-10-02",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2023-10-31",
+   "ticker": "CASY",
+   "valor": 0.43
+  },
+  {
+   "data": "2023-11-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2023-11-02",
+   "ticker": "COST",
+   "valor": 0.48
+  },
+  {
+   "data": "2023-11-10",
+   "ticker": "AAPL",
+   "valor": 0.36
+  },
+  {
+   "data": "2023-11-15",
+   "ticker": "MSFT",
+   "valor": 0.59
+  },
+  {
+   "data": "2023-12-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2023-12-07",
+   "ticker": "ITUB3",
+   "valor": 3.93
+  },
+  {
+   "data": "2023-12-18",
+   "ticker": "APH",
+   "valor": 0.71
+  },
+  {
+   "data": "2023-12-22",
+   "ticker": "EGIE3",
+   "valor": 1.64
+  },
+  {
+   "data": "2023-12-27",
+   "ticker": "COST",
+   "valor": 6.87
+  },
+  {
+   "data": "2024-01-02",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-01-08",
+   "ticker": "MA",
+   "valor": 0.42
+  },
+  {
+   "data": "2024-01-31",
+   "ticker": "CASY",
+   "valor": 0.42
+  },
+  {
+   "data": "2024-02-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-02-01",
+   "ticker": "COST",
+   "valor": 0.48
+  },
+  {
+   "data": "2024-02-09",
+   "ticker": "AAPL",
+   "valor": 0.36
+  },
+  {
+   "data": "2024-02-14",
+   "ticker": "MSFT",
+   "valor": 0.6
+  },
+  {
+   "data": "2024-02-22",
+   "ticker": "ITUB3",
+   "valor": 17.87
+  },
+  {
+   "data": "2024-02-29",
+   "ticker": "AJG",
+   "valor": 0.75
+  },
+  {
+   "data": "2024-03-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-03-06",
+   "ticker": "BLK",
+   "valor": 1.78
+  },
+  {
+   "data": "2024-03-18",
+   "ticker": "APH",
+   "valor": 0.71
+  },
+  {
+   "data": "2024-03-22",
+   "ticker": "ITUB3",
+   "valor": 3.84
+  },
+  {
+   "data": "2024-04-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-04-01",
+   "ticker": "PSSA3",
+   "valor": 5.5
+  },
+  {
+   "data": "2024-04-04",
+   "ticker": "RADL3",
+   "valor": 0.64
+  },
+  {
+   "data": "2024-04-08",
+   "ticker": "MA",
+   "valor": 0.44
+  },
+  {
+   "data": "2024-04-18",
+   "ticker": "RADL3",
+   "valor": 0.72
+  },
+  {
+   "data": "2024-04-24",
+   "ticker": "FAST",
+   "valor": 1.57
+  },
+  {
+   "data": "2024-04-25",
+   "ticker": "COST",
+   "valor": 0.57
+  },
+  {
+   "data": "2024-04-30",
+   "ticker": "CASY",
+   "valor": 0.44
+  },
+  {
+   "data": "2024-05-02",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-05-02",
+   "ticker": "EQTL3",
+   "valor": 5.37
+  },
+  {
+   "data": "2024-05-07",
+   "ticker": "EGIE3",
+   "valor": 11.23
+  },
+  {
+   "data": "2024-05-10",
+   "ticker": "AAPL",
+   "valor": 0.39
+  },
+  {
+   "data": "2024-05-14",
+   "ticker": "CTAS",
+   "valor": 0.55
+  },
+  {
+   "data": "2024-05-15",
+   "ticker": "MSFT",
+   "valor": 0.62
+  },
+  {
+   "data": "2024-06-03",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-06-07",
+   "ticker": "AJG",
+   "valor": 0.79
+  },
+  {
+   "data": "2024-06-07",
+   "ticker": "BLK",
+   "valor": 1.89
+  },
+  {
+   "data": "2024-06-10",
+   "ticker": "GOOGL",
+   "valor": 0.45
+  },
+  {
+   "data": "2024-06-14",
+   "ticker": "AME",
+   "valor": 0.52
+  },
+  {
+   "data": "2024-06-18",
+   "ticker": "APH",
+   "valor": 1.56
+  },
+  {
+   "data": "2024-06-21",
+   "ticker": "ITUB3",
+   "valor": 3.99
+  },
+  {
+   "data": "2024-07-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-07-01",
+   "ticker": "WEGE3",
+   "valor": 0.56
+  },
+  {
+   "data": "2024-07-04",
+   "ticker": "RADL3",
+   "valor": 0.66
+  },
+  {
+   "data": "2024-07-09",
+   "ticker": "MA",
+   "valor": 0.48
+  },
+  {
+   "data": "2024-07-26",
+   "ticker": "COST",
+   "valor": 0.62
+  },
+  {
+   "data": "2024-07-26",
+   "ticker": "FAST",
+   "valor": 1.72
+  },
+  {
+   "data": "2024-08-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-08-01",
+   "ticker": "CASY",
+   "valor": 0.56
+  },
+  {
+   "data": "2024-08-05",
+   "ticker": "WEGE3",
+   "valor": 1.69
+  },
+  {
+   "data": "2024-08-12",
+   "ticker": "AAPL",
+   "valor": 0.42
+  },
+  {
+   "data": "2024-08-15",
+   "ticker": "FLRY3",
+   "valor": 9.11
+  },
+  {
+   "data": "2024-08-15",
+   "ticker": "MSFT",
+   "valor": 0.66
+  },
+  {
+   "data": "2024-08-15",
+   "ticker": "CTAS",
+   "valor": 0.67
+  },
+  {
+   "data": "2024-08-19",
+   "ticker": "BBSE3",
+   "valor": 16.69
+  },
+  {
+   "data": "2024-08-22",
+   "ticker": "EGIE3",
+   "valor": 10.53
+  },
+  {
+   "data": "2024-08-30",
+   "ticker": "FDS",
+   "valor": 0.73
+  },
+  {
+   "data": "2024-09-02",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-09-06",
+   "ticker": "AJG",
+   "valor": 0.84
+  },
+  {
+   "data": "2024-09-09",
+   "ticker": "GOOGL",
+   "valor": 0.48
+  },
+  {
+   "data": "2024-09-09",
+   "ticker": "BLK",
+   "valor": 2.01
+  },
+  {
+   "data": "2024-09-16",
+   "ticker": "AME",
+   "valor": 0.54
+  },
+  {
+   "data": "2024-09-17",
+   "ticker": "APH",
+   "valor": 2.37
+  },
+  {
+   "data": "2024-09-20",
+   "ticker": "ITUB3",
+   "valor": 4.34
+  },
+  {
+   "data": "2024-09-26",
+   "ticker": "RENT3",
+   "valor": 4.0
+  },
+  {
+   "data": "2024-09-30",
+   "ticker": "PSSA3",
+   "valor": 5.74
+  },
+  {
+   "data": "2024-09-30",
+   "ticker": "WEGE3",
+   "valor": 0.63
+  },
+  {
+   "data": "2024-10-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-10-04",
+   "ticker": "RADL3",
+   "valor": 4.03
+  },
+  {
+   "data": "2024-10-09",
+   "ticker": "MA",
+   "valor": 0.48
+  },
+  {
+   "data": "2024-10-25",
+   "ticker": "FAST",
+   "valor": 1.73
+  },
+  {
+   "data": "2024-11-01",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-11-01",
+   "ticker": "COST",
+   "valor": 0.64
+  },
+  {
+   "data": "2024-11-01",
+   "ticker": "CASY",
+   "valor": 0.57
+  },
+  {
+   "data": "2024-11-08",
+   "ticker": "AAPL",
+   "valor": 0.43
+  },
+  {
+   "data": "2024-11-15",
+   "ticker": "CTAS",
+   "valor": 2.84
+  },
+  {
+   "data": "2024-11-21",
+   "ticker": "MSFT",
+   "valor": 0.77
+  },
+  {
+   "data": "2024-11-29",
+   "ticker": "FDS",
+   "valor": 0.78
+  },
+  {
+   "data": "2024-12-02",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2024-12-04",
+   "ticker": "TOTS3",
+   "valor": 3.08
+  },
+  {
+   "data": "2024-12-05",
+   "ticker": "RADL3",
+   "valor": 2.27
+  },
+  {
+   "data": "2024-12-05",
+   "ticker": "BLK",
+   "valor": 2.17
+  },
+  {
+   "data": "2024-12-06",
+   "ticker": "AJG",
+   "valor": 0.9
+  },
+  {
+   "data": "2024-12-06",
+   "ticker": "AME",
+   "valor": 0.58
+  },
+  {
+   "data": "2024-12-09",
+   "ticker": "GOOGL",
+   "valor": 0.52
+  },
+  {
+   "data": "2024-12-10",
+   "ticker": "ITUB3",
+   "valor": 4.93
+  },
+  {
+   "data": "2024-12-16",
+   "ticker": "FLRY3",
+   "valor": 12.41
+  },
+  {
+   "data": "2024-12-17",
+   "ticker": "APH",
+   "valor": 2.64
+  },
+  {
+   "data": "2024-12-18",
+   "ticker": "RENT3",
+   "valor": 4.05
+  },
+  {
+   "data": "2024-12-20",
+   "ticker": "EGIE3",
+   "valor": 6.08
+  },
+  {
+   "data": "2024-12-23",
+   "ticker": "WEGE3",
+   "valor": 0.72
+  },
+  {
+   "data": "2024-12-26",
+   "ticker": "BCPC",
+   "valor": 1.62
+  },
+  {
+   "data": "2025-01-02",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2025-01-02",
+   "ticker": "PSSA3",
+   "valor": 5.89
+  },
+  {
+   "data": "2025-01-10",
+   "ticker": "MA",
+   "valor": 0.61
+  },
+  {
+   "data": "2025-01-14",
+   "ticker": "EQTL3",
+   "valor": 2.41
+  },
+  {
+   "data": "2025-01-31",
+   "ticker": "FAST",
+   "valor": 1.98
+  },
+  {
+   "data": "2025-02-03",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2025-02-03",
+   "ticker": "CASY",
+   "valor": 0.58
+  },
+  {
+   "data": "2025-02-07",
+   "ticker": "COST",
+   "valor": 0.64
+  },
+  {
+   "data": "2025-02-10",
+   "ticker": "AAPL",
+   "valor": 0.44
+  },
+  {
+   "data": "2025-02-14",
+   "ticker": "CTAS",
+   "valor": 2.83
+  },
+  {
+   "data": "2025-02-18",
+   "ticker": "ITUB3",
+   "valor": 25.17
+  },
+  {
+   "data": "2025-02-20",
+   "ticker": "MSFT",
+   "valor": 0.77
+  },
+  {
+   "data": "2025-02-21",
+   "ticker": "BBSE3",
+   "valor": 27.84
+  },
+  {
+   "data": "2025-02-28",
+   "ticker": "FDS",
+   "valor": 0.75
+  },
+  {
+   "data": "2025-03-05",
+   "ticker": "ITUB3",
+   "valor": 0.28
+  },
+  {
+   "data": "2025-03-05",
+   "ticker": "WEGE3",
+   "valor": 2.72
+  },
+  {
+   "data": "2025-03-07",
+   "ticker": "FLRY3",
+   "valor": 27.04
+  },
+  {
+   "data": "2025-03-07",
+   "ticker": "AJG",
+   "valor": 0.94
+  },
+  {
+   "data": "2025-03-07",
+   "ticker": "BLK",
+   "valor": 2.12
+  },
+  {
+   "data": "2025-03-10",
+   "ticker": "GOOGL",
+   "valor": 0.5
+  },
+  {
+   "data": "2025-03-14",
+   "ticker": "AME",
+   "valor": 0.62
+  },
+  {
+   "data": "2025-03-18",
+   "ticker": "APH",
+   "valor": 2.44
+  },
+  {
+   "data": "2025-03-24",
+   "ticker": "WEGE3",
+   "valor": 0.73
+  },
+  {
+   "data": "2025-03-25",
+   "ticker": "TOTS3",
+   "valor": 1.96
+  },
+  {
+   "data": "2025-03-27",
+   "ticker": "RENT3",
+   "valor": 10.5
+  },
+  {
+   "data": "2025-03-31",
+   "ticker": "PSSA3",
+   "valor": 14.54
+  },
+  {
+   "data": "2025-04-01",
+   "ticker": "ITUB3",
+   "valor": 0.34
+  },
+  {
+   "data": "2025-04-04",
+   "ticker": "RADL3",
+   "valor": 2.16
+  },
+  {
+   "data": "2025-04-09",
+   "ticker": "MA",
+   "valor": 0.6
+  },
+  {
+   "data": "2025-04-25",
+   "ticker": "FAST",
+   "valor": 1.96
+  },
+  {
+   "data": "2025-04-30",
+   "ticker": "SBSP3",
+   "valor": 20.26
+  },
+  {
+   "data": "2025-04-30",
+   "ticker": "RADL3",
+   "valor": 1.9
+  },
+  {
+   "data": "2025-05-01",
+   "ticker": "CASY",
+   "valor": 0.56
+  },
+  {
+   "data": "2025-05-02",
+   "ticker": "ITUB3",
+   "valor": 0.34
+  },
+  {
+   "data": "2025-05-02",
+   "ticker": "EQTL3",
+   "valor": 18.9
+  },
+  {
+   "data": "2025-05-02",
+   "ticker": "COST",
+   "valor": 0.7
+  },
+  {
+   "data": "2025-05-07",
+   "ticker": "EGIE3",
+   "valor": 17.39
+  },
+  {
+   "data": "2025-05-12",
+   "ticker": "AAPL",
+   "valor": 0.44
+  },
+  {
+   "data": "2025-05-15",
+   "ticker": "MSFT",
+   "valor": 0.76
+  },
+  {
+   "data": "2025-05-15",
+   "ticker": "CTAS",
+   "valor": 2.77
+  },
+  {
+   "data": "2025-05-30",
+   "ticker": "FDS",
+   "valor": 1.49
+  },
+  {
+   "data": "2025-06-02",
+   "ticker": "ITUB3",
+   "valor": 0.34
+  },
+  {
+   "data": "2025-06-05",
+   "ticker": "BLK",
+   "valor": 2.07
+  },
+  {
+   "data": "2025-06-06",
+   "ticker": "AJG",
+   "valor": 0.91
+  },
+  {
+   "data": "2025-06-09",
+   "ticker": "GOOGL",
+   "valor": 0.5
+  },
+  {
+   "data": "2025-06-10",
+   "ticker": "ITUB3",
+   "valor": 6.42
+  },
+  {
+   "data": "2025-06-13",
+   "ticker": "AME",
+   "valor": 1.12
+  },
+  {
+   "data": "2025-06-17",
+   "ticker": "APH",
+   "valor": 2.36
+  },
+  {
+   "data": "2025-06-23",
+   "ticker": "WEGE3",
+   "valor": 1.79
+  },
+  {
+   "data": "2025-06-24",
+   "ticker": "TOTS3",
+   "valor": 2.1
+  },
+  {
+   "data": "2025-06-27",
+   "ticker": "PSSA3",
+   "valor": 6.76
+  },
+  {
+   "data": "2025-06-30",
+   "ticker": "RENT3",
+   "valor": 11.64
+  },
+  {
+   "data": "2025-07-01",
+   "ticker": "ITUB3",
+   "valor": 0.34
+  },
+  {
+   "data": "2025-07-04",
+   "ticker": "RADL3",
+   "valor": 4.75
+  },
+  {
+   "data": "2025-07-09",
+   "ticker": "MA",
+   "valor": 0.55
+  },
+  {
+   "data": "2025-07-28",
+   "ticker": "WEGE3",
+   "valor": 3.26
+  },
+  {
+   "data": "2025-07-29",
+   "ticker": "FAST",
+   "valor": 7.04
+  },
+  {
+   "data": "2025-08-01",
+   "ticker": "ITUB3",
+   "valor": 0.58
+  },
+  {
+   "data": "2025-08-01",
+   "ticker": "COST",
+   "valor": 0.69
+  },
+  {
+   "data": "2025-08-01",
+   "ticker": "CASY",
+   "valor": 0.63
+  },
+  {
+   "data": "2025-08-11",
+   "ticker": "AAPL",
+   "valor": 0.43
+  },
+  {
+   "data": "2025-08-13",
+   "ticker": "FLRY3",
+   "valor": 17.99
+  },
+  {
+   "data": "2025-08-15",
+   "ticker": "BBSE3",
+   "valor": 44.67
+  },
+  {
+   "data": "2025-08-15",
+   "ticker": "CTAS",
+   "valor": 3.07
+  },
+  {
+   "data": "2025-08-19",
+   "ticker": "ITUB3",
+   "valor": 11.93
+  },
+  {
+   "data": "2025-08-21",
+   "ticker": "MSFT",
+   "valor": 0.73
+  },
+  {
+   "data": "2025-08-22",
+   "ticker": "EGIE3",
+   "valor": 17.49
+  },
+  {
+   "data": "2025-08-29",
+   "ticker": "FDS",
+   "valor": 1.43
+  },
+  {
+   "data": "2025-09-01",
+   "ticker": "ITUB3",
+   "valor": 0.58
+  },
+  {
+   "data": "2025-09-05",
+   "ticker": "AJG",
+   "valor": 0.89
+  },
+  {
+   "data": "2025-09-05",
+   "ticker": "BLK",
+   "valor": 2.0
+  },
+  {
+   "data": "2025-09-08",
+   "ticker": "GOOGL",
+   "valor": 0.49
+  },
+  {
+   "data": "2025-09-15",
+   "ticker": "AME",
+   "valor": 1.08
+  },
+  {
+   "data": "2025-09-16",
+   "ticker": "APH",
+   "valor": 2.29
+  },
+  {
+   "data": "2025-09-24",
+   "ticker": "TOTS3",
+   "valor": 3.75
+  },
+  {
+   "data": "2025-09-26",
+   "ticker": "PSSA3",
+   "valor": 12.28
+  },
+  {
+   "data": "2025-09-26",
+   "ticker": "RENT3",
+   "valor": 11.85
+  },
+  {
+   "data": "2025-09-29",
+   "ticker": "WEGE3",
+   "valor": 3.42
+  },
+  {
+   "data": "2025-10-01",
+   "ticker": "ITUB3",
+   "valor": 0.58
+  },
+  {
+   "data": "2025-10-06",
+   "ticker": "RADL3",
+   "valor": 5.07
+  },
+  {
+   "data": "2025-10-09",
+   "ticker": "MA",
+   "valor": 0.54
+  },
+  {
+   "data": "2025-10-28",
+   "ticker": "FAST",
+   "valor": 6.77
+  },
+  {
+   "data": "2025-10-31",
+   "ticker": "COST",
+   "valor": 0.67
+  },
+  {
+   "data": "2025-10-31",
+   "ticker": "CASY",
+   "valor": 0.61
+  },
+  {
+   "data": "2025-11-03",
+   "ticker": "ITUB3",
+   "valor": 0.58
+  },
+  {
+   "data": "2025-11-06",
+   "ticker": "EQTL3",
+   "valor": 39.15
+  },
+  {
+   "data": "2025-11-10",
+   "ticker": "AAPL",
+   "valor": 0.42
+  },
+  {
+   "data": "2025-11-14",
+   "ticker": "CTAS",
+   "valor": 3.0
+  },
+  {
+   "data": "2025-11-20",
+   "ticker": "MSFT",
+   "valor": 0.78
+  },
+  {
+   "data": "2025-11-28",
+   "ticker": "FDS",
+   "valor": 1.41
+  },
+  {
+   "data": "2025-12-01",
+   "ticker": "ITUB3",
+   "valor": 0.58
+  },
+  {
+   "data": "2025-12-03",
+   "ticker": "FLRY3",
+   "valor": 79.12
+  },
+  {
+   "data": "2025-12-04",
+   "ticker": "WEGE3",
+   "valor": 14.04
+  },
+  {
+   "data": "2025-12-05",
+   "ticker": "AJG",
+   "valor": 1.68
+  },
+  {
+   "data": "2025-12-05",
+   "ticker": "BLK",
+   "valor": 1.95
+  },
+  {
+   "data": "2025-12-05",
+   "ticker": "AME",
+   "valor": 1.07
+  },
+  {
+   "data": "2025-12-08",
+   "ticker": "RADL3",
+   "valor": 9.93
+  },
+  {
+   "data": "2025-12-08",
+   "ticker": "GOOGL",
+   "valor": 0.49
+  },
+  {
+   "data": "2025-12-10",
+   "ticker": "ITUB3",
+   "valor": 73.44
+  },
+  {
+   "data": "2025-12-16",
+   "ticker": "TOTS3",
+   "valor": 4.25
+  },
+  {
+   "data": "2025-12-16",
+   "ticker": "APH",
+   "valor": 3.53
+  },
+  {
+   "data": "2025-12-18",
+   "ticker": "RENT3",
+   "valor": 17.53
+  },
+  {
+   "data": "2025-12-19",
+   "ticker": "EGIE3",
+   "valor": 5.35
+  },
+  {
+   "data": "2025-12-22",
+   "ticker": "WEGE3",
+   "valor": 38.39
+  },
+  {
+   "data": "2025-12-23",
+   "ticker": "BCPC",
+   "valor": 3.32
+  },
+  {
+   "data": "2025-12-26",
+   "ticker": "SBSP3",
+   "valor": 25.87
+  },
+  {
+   "data": "2025-12-29",
+   "ticker": "PSSA3",
+   "valor": 12.36
+  },
+  {
+   "data": "2025-12-30",
+   "ticker": "EQTL3",
+   "valor": 3.6
+  },
+  {
+   "data": "2026-01-02",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-01-09",
+   "ticker": "MA",
+   "valor": 1.2
+  },
+  {
+   "data": "2026-01-29",
+   "ticker": "FAST",
+   "valor": 7.15
+  },
+  {
+   "data": "2026-01-30",
+   "ticker": "COST",
+   "valor": 0.64
+  },
+  {
+   "data": "2026-01-30",
+   "ticker": "CASY",
+   "valor": 0.59
+  },
+  {
+   "data": "2026-02-02",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-02-09",
+   "ticker": "AAPL",
+   "valor": 0.41
+  },
+  {
+   "data": "2026-02-13",
+   "ticker": "BBSE3",
+   "valor": 96.45
+  },
+  {
+   "data": "2026-02-13",
+   "ticker": "CTAS",
+   "valor": 2.96
+  },
+  {
+   "data": "2026-02-19",
+   "ticker": "MSFT",
+   "valor": 1.4
+  },
+  {
+   "data": "2026-02-27",
+   "ticker": "FDS",
+   "valor": 2.55
+  },
+  {
+   "data": "2026-03-02",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-03-06",
+   "ticker": "AJG",
+   "valor": 1.8
+  },
+  {
+   "data": "2026-03-06",
+   "ticker": "BLK",
+   "valor": 3.95
+  },
+  {
+   "data": "2026-03-09",
+   "ticker": "GOOGL",
+   "valor": 0.47
+  },
+  {
+   "data": "2026-03-16",
+   "ticker": "AME",
+   "valor": 1.18
+  },
+  {
+   "data": "2026-03-20",
+   "ticker": "ITUB3",
+   "valor": 12.15
+  },
+  {
+   "data": "2026-03-20",
+   "ticker": "SBSP3",
+   "valor": 8.41
+  },
+  {
+   "data": "2026-03-23",
+   "ticker": "WEGE3",
+   "valor": 3.1
+  },
+  {
+   "data": "2026-03-23",
+   "ticker": "APH",
+   "valor": 3.46
+  },
+  {
+   "data": "2026-03-26",
+   "ticker": "TOTS3",
+   "valor": 4.5
+  },
+  {
+   "data": "2026-03-30",
+   "ticker": "RENT3",
+   "valor": 17.75
+  },
+  {
+   "data": "2026-03-31",
+   "ticker": "PSSA3",
+   "valor": 12.47
+  },
+  {
+   "data": "2026-04-01",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-04-01",
+   "ticker": "PSSA3",
+   "valor": 20.38
+  },
+  {
+   "data": "2026-04-07",
+   "ticker": "RADL3",
+   "valor": 5.53
+  },
+  {
+   "data": "2026-04-09",
+   "ticker": "MA",
+   "valor": 1.13
+  },
+  {
+   "data": "2026-04-28",
+   "ticker": "FAST",
+   "valor": 6.88
+  },
+  {
+   "data": "2026-04-30",
+   "ticker": "CPFE3",
+   "valor": 85.83
+  },
+  {
+   "data": "2026-05-01",
+   "ticker": "COST",
+   "valor": 1.13
+  },
+  {
+   "data": "2026-05-01",
+   "ticker": "CASY",
+   "valor": 0.56
+  },
+  {
+   "data": "2026-05-04",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-05-05",
+   "ticker": "EGIE3",
+   "valor": 29.84
+  },
+  {
+   "data": "2026-05-11",
+   "ticker": "AAPL",
+   "valor": 0.72
+  },
+  {
+   "data": "2026-05-15",
+   "ticker": "CTAS",
+   "valor": 2.84
+  },
+  {
+   "data": "2026-05-21",
+   "ticker": "MSFT",
+   "valor": 1.34
+  },
+  {
+   "data": "2026-05-29",
+   "ticker": "FDS",
+   "valor": 4.36
+  },
+  {
+   "data": "2026-06-01",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-06-05",
+   "ticker": "AJG",
+   "valor": 2.89
+  },
+  {
+   "data": "2026-06-05",
+   "ticker": "BLK",
+   "valor": 3.79
+  },
+  {
+   "data": "2026-06-08",
+   "ticker": "GOOGL",
+   "valor": 0.49
+  },
+  {
+   "data": "2026-06-15",
+   "ticker": "AME",
+   "valor": 1.12
+  },
+  {
+   "data": "2026-06-16",
+   "ticker": "TOTS3",
+   "valor": 4.5
+  },
+  {
+   "data": "2026-06-19",
+   "ticker": "ITUB3",
+   "valor": 12.6
+  },
+  {
+   "data": "2026-06-22",
+   "ticker": "WEGE3",
+   "valor": 3.24
+  },
+  {
+   "data": "2026-06-23",
+   "ticker": "PSSA3",
+   "valor": 11.79
+  },
+  {
+   "data": "2026-06-23",
+   "ticker": "APH",
+   "valor": 3.36
+  },
+  {
+   "data": "2026-06-29",
+   "ticker": "RENT3",
+   "valor": 18.19
+  },
+  {
+   "data": "2026-07-01",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-07-06",
+   "ticker": "RADL3",
+   "valor": 7.43
+  },
+  {
+   "data": "2026-07-09",
+   "ticker": "MA",
+   "valor": 1.15
+  },
+  {
+   "data": "2026-07-24",
+   "ticker": "COST",
+   "valor": 1.16
+  },
+  {
+   "data": "2026-07-28",
+   "ticker": "FAST",
+   "valor": 7.63
+  },
+  {
+   "data": "2026-07-31",
+   "ticker": "CASY",
+   "valor": 0.65
+  },
+  {
+   "data": "2026-08-03",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-08-07",
+   "ticker": "BBSE3",
+   "valor": 73.38
+  },
+  {
+   "data": "2026-08-10",
+   "ticker": "AAPL",
+   "valor": 0.75
+  },
+  {
+   "data": "2026-08-12",
+   "ticker": "FLRY3",
+   "valor": 35.26
+  },
+  {
+   "data": "2026-08-14",
+   "ticker": "CTAS",
+   "valor": 3.41
+  },
+  {
+   "data": "2026-08-20",
+   "ticker": "MSFT",
+   "valor": 2.19
+  },
+  {
+   "data": "2026-08-21",
+   "ticker": "EGIE3",
+   "valor": 33.52
+  },
+  {
+   "data": "2026-08-31",
+   "ticker": "FDS",
+   "valor": 4.48
+  },
+  {
+   "data": "2026-09-01",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  },
+  {
+   "data": "2026-09-04",
+   "ticker": "GOOGL",
+   "valor": 0.69
+  },
+  {
+   "data": "2026-09-08",
+   "ticker": "AJG",
+   "valor": 2.93
+  },
+  {
+   "data": "2026-09-08",
+   "ticker": "BLK",
+   "valor": 3.84
+  },
+  {
+   "data": "2026-09-15",
+   "ticker": "AME",
+   "valor": 1.14
+  },
+  {
+   "data": "2026-09-21",
+   "ticker": "WEGE3",
+   "valor": 3.32
+  },
+  {
+   "data": "2026-09-22",
+   "ticker": "APH",
+   "valor": 6.66
+  },
+  {
+   "data": "2026-09-24",
+   "ticker": "PSSA3",
+   "valor": 11.98
+  },
+  {
+   "data": "2026-09-24",
+   "ticker": "TOTS3",
+   "valor": 3.75
+  },
+  {
+   "data": "2026-09-28",
+   "ticker": "RENT3",
+   "valor": 18.92
+  },
+  {
+   "data": "2026-10-01",
+   "ticker": "ITUB3",
+   "valor": 0.63
+  }
+ ]
+}
