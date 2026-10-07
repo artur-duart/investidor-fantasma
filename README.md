@@ -79,7 +79,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 5. Pesos e notas
+## 4. Pesos e notas
 
 - **Pesos iguais** dentro de cada classe. Ninguém consegue prever as grandes vencedoras; a diversificação garante estar nelas.
 - **Teto de ~3% por empresa no peso-meta de entrada** (faixa de 2,5% a 3,2%). Esse teto vale **apenas para a meta e para a definição de aportes**, nunca para vender.
@@ -97,7 +97,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 6. Carteira definitiva
+## 5. Carteira definitiva
 
 ### Brasil (12 empresas, 2,64% cada)
 
@@ -139,7 +139,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 | ISRG | Saúde | 3 | Cirurgia robótica; receita recorrente de instrumentos |
 | IDXX | Saúde | 3 | Diagnóstico veterinário; EPS crescente |
 | BCPC | Materiais especiais | 2 | Ingredientes especiais, não commodity; lucro estável; ressalva: porte menor |
-| MTD | Saúde (instrumentos) | 2 | Ver análise abaixo |
+| MTD | Saúde (instrumentos) | 2 | - |
 
 ### Bitcoin (5%)
 
@@ -150,7 +150,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 7. Ativos excluídos e motivos
+## 6. Ativos excluídos e motivos
 
 | Ativos | Motivo |
 |---|---|
@@ -165,7 +165,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 8. Lista de espera e quarentena
+## 7. Lista de espera e quarentena
 
 ### Lista de espera (aprovadas, sem vaga no momento)
 
@@ -196,7 +196,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 9. Rotina de aportes
+## 8. Rotina de aportes
 
 ### Passo a passo mensal (~10 minutos)
 
@@ -216,7 +216,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 10. Revisão anual
+## 9. Revisão anual
 
 - Reserva de emergência: ajustar se o custo de vida mudar.
 - Quarentena: checar fundamentos de cada empresa e os gatilhos.
@@ -228,7 +228,7 @@ Reprovou em qualquer item, está fora, independentemente do resto.
 
 ---
 
-## 11. Investidor Fantasma (simulação ao vivo)
+## 10. Investidor Fantasma (simulação ao vivo)
 
 Um robô que segue esta estratégia com dinheiro fictício e preços reais, para mostrar que qualquer pessoa consegue investir.
 
@@ -266,7 +266,7 @@ Um teste local de 41 aportes (R$ 33.813,11 investidos) gerou R$ 35.382,54 de luc
 
 ---
 
-## 12. Lições registradas na construção
+## 11. Lições registradas na construção
 
 - **Filtro antes de nota:** reprovar em um critério elimina; ressalvas apenas reduzem a nota.
 - **Mudança de negócio invalida o histórico:** o caso Odontoprev → Bradsaúde (SAUD3).
