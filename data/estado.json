@@ -1,5 +1,5 @@
 {
- "atualizado_em": "16/10/2026 20:04",
+ "atualizado_em": "17/10/2026 11:42",
  "inicio": "2026-09-30",
  "resumo": {
   "patrimonio": 772.0918110530952,
@@ -13,7 +13,7 @@
  },
  "benchmarks": {
   "CDI (bruto)": 783.97,
-  "S&P 500 (IVVB11)": 764.62
+  "S&P 500 (IVVB11)": 774.91
  },
  "metas_classe": {
   "Exterior": 0.633,
@@ -51,7 +51,7 @@
    "patrimonio": 772.09,
    "bench": {
     "CDI (bruto)": 783.97,
-    "S&P 500 (IVVB11)": 764.62
+    "S&P 500 (IVVB11)": 774.91
    }
   }
  ],
@@ -673,8 +673,8 @@
    "quantidade": 0.0,
    "custo": 0,
    "preco_medio": null,
-   "preco_atual": 414152.7945831269,
-   "preco_local": 81698.21875,
+   "preco_atual": 412962.5783475749,
+   "preco_local": 81463.4296875,
    "variacao": null,
    "rentabilidade": null,
    "saldo": 0.0,
