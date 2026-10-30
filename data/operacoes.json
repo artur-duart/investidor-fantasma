@@ -19,6 +19,26 @@
      "valor_gasto": 390.0
     }
    ]
+  },
+  {
+   "numero": 2,
+   "data": "2026-10-30",
+   "valor": 780.0,
+   "classe": "Brasil",
+   "compras": [
+    {
+     "ticker": "ITUB3",
+     "quantidade": 9,
+     "preco": 43.06,
+     "valor_gasto": 387.54
+    },
+    {
+     "ticker": "EQTL3",
+     "quantidade": 11,
+     "preco": 32.6,
+     "valor_gasto": 358.6
+    }
+   ]
   }
  ]
 }
